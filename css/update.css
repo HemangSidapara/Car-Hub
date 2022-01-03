@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.profile{
+    width: 100%;
+    height: 82.6vh;
+    background-color: rgb(218, 218, 218);
+}
+
+.conn{
+    position: relative;
+}
+
+.error{
+    text-align: center;
+    font-size: 12px;
+    font-family: cursive;
+}
+
+.hdr {
+    color: #34495e;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dta,td i{
+    border-width: 2px;
+    border-radius: 30px;
+    color: #34495e;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.dta tr td i{
+    text-align: right;
+}
+
+.dta input,td input{
+    width: 100%;
+    outline: none;
+    border-bottom-style: solid;
+    border-color: #34495e;
+    background: none;
+    color: #34495e;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 8px 10px 8px; 
+}
+
+.bnm{
+    text-align: center;
+    color: #34495e;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: none;
+    border-radius: 30px;
+    box-shadow:-5px -5px 10px rgb(255,255,255),5px 5px 10px rgb(71, 71, 71) ;
+}  
+
+.bnm:hover{
+    color:  #34495e;
+    background-color:  rgb(218, 218, 218);
+    transform: scale(.95);
+    box-shadow: 5px 5px 8px rgb(182, 181, 181),-5px -5px 8px white;
+}
